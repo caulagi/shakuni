@@ -1,3 +1,14 @@
+body {
+  padding-top: 50px;
+}
+
+footer {
+  margin-top: 5em;
+  text-align: center;
+  border-top: 1px solid #ddd;
+  padding-top: 2em;
+}
+
 .navbar-right {
   padding-top: 19.5px;
   padding-bottom: 19.5px;
