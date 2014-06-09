@@ -1,6 +1,8 @@
-# shakuni
+# shakuni - bet among your friends
 
-A betting app for football world cup among your friends
+![screenshot](https://farm6.staticflickr.com/5039/14380894175_77ff29ff29_b.jpg)
+
+A betting app for FIFA world cup 2014 among your friends
 
 ## Dev setup
 
