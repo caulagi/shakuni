@@ -10,7 +10,13 @@
         <li><i class="fa fa-credit-card"></i>&nbsp;&nbsp;Bet!</li>
         <li><i class="fa fa-gift"></i>&nbsp;&nbsp;Features: leaderboard, statistics (team, players)</li>
       </ul>
-      <a class="btn btn-primary vspace-three" href="{{ url_for('users_blueprint.login') }}">Get started</a>
+      {% if user %}
+        <a href="{{ url_for('users_blueprint.me') }}">
+          <img class="img-rounded" src="{{ user.gravatar_url }}">
+        </a>
+      {% else %}
+        <a class="btn btn-primary vspace-three" href="{{ url_for('users_blueprint.login') }}">Get started</a>
+      {% endif %}
     </div>
   </div>
 {% endblock %}

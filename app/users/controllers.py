@@ -80,7 +80,7 @@ def init(application):
         if user is not None:
             flash(u'Successfully signed in')
             g.user = user
-            return redirect(url_for('users_blueprint.edit_profile'))
+            return redirect(url_for('users_blueprint.me'))
         return redirect(url_for('users_blueprint.create_profile', next=oid.get_next_url(),
                                 name=resp.fullname or resp.nickname,
                                 email=resp.email))
@@ -136,4 +136,10 @@ def init(application):
     def logout():
         session.pop('openid', None)
         flash(u'You have been signed out')
-        return redirect(oid.get_next_url())
+        return redirect(url_for("users_blueprint.login"))
+
+    @users_blueprint.route('/me')
+    def me():
+        if g.user is None:
+            abort(401)
+        return render_template('users/me.html', user=g.user)
