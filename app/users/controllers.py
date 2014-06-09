@@ -1,14 +1,9 @@
 # -*- coding: utf-8 -*-
 """
-    OpenID Example
-    ~~~~~~~~~~~~~~
+    Integrate with Google  using openid
 
-    This simple application shows how to integrate OpenID in your application.
-
-    This example requires SQLAlchemy as a dependency.
-
-    :copyright: (c) 2010 by Armin Ronacher.
-    :license: BSD, see LICENSE for more details.
+    :copyright: (c) 2014 by Pradip Caulagi.
+    :license: MIT, see LICENSE for more details.
 """
 import logging
 

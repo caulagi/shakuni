@@ -1,0 +1,21 @@
+{% macro render_field(field) %}
+  <div class="form-group {% if field.errors %} error {% endif %}">
+    <label class="col-sm-2 control-label">{{ field.label }}</label>
+    <div class="col-sm-8">
+      {{ field(class='form-control')|safe }}
+      {% if field.errors %}
+        {% for error in field.errors %}
+          <span class="help-inline">[{{ error }}]</span><br>
+        {% endfor %}
+      {% endif %}
+    </div>
+  </div>
+{% endmacro %}
+
+{% macro render_submit_button(btn_value) %}
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-8">
+      <button type="submit" class="btn btn-success">{{ btn_value }}</button>
+    </div>
+  </div>
+{% endmacro %}
