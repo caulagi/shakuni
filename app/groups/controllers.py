@@ -9,10 +9,10 @@
 import logging
 
 from flask import render_template, g, abort, url_for, redirect, \
-    request
+    request, flash
 from flask import Blueprint
 
-#from app.groups.models import Group
+from app.groups.models import Group, MemberOf
 from app.groups.forms import GroupForm
 
 # setup logger
@@ -21,6 +21,33 @@ logger = logging.getLogger('shakuni-groups')
 # set up blueprint
 groups_blueprint = Blueprint('groups_blueprint', __name__)
 
+
+def update_members(form, group):
+    """Add the group to the reverse document (MembersOf)"""
+
+    doc = MemberOf.objects(user = g.user)
+    if doc:
+        doc.update_one(push__groups = g.user)
+    else:
+        MemberOf.objects.create(
+            user = g.user,
+            groups = [group]
+        )
+    return group
+
+
+def create_group(form):
+    """Create a group and do the necessary book keeping"""
+
+    group = Group.objects.create(
+        name = form.name.data,
+        slug = form.slug.data,
+        currency = form.currency.data,
+        admins = [g.user],
+        members = [g.user],
+    )
+    return update_members(form, group)
+    
 def init(application):
 
     @groups_blueprint.route('/create', methods=['GET', 'POST'])
@@ -29,10 +56,20 @@ def init(application):
             abort(401)
         form = GroupForm(request.form)
         if form.validate_on_submit():
-            pass
+            group = create_group(form)
+            flash("Created group successfully")
+            return redirect(url_for("groups_blueprint.show", id=group.id))
         return render_template("groups/create.html", form=form)
         
 
     @groups_blueprint.route('/list')
     def list():
         pass
+
+    @groups_blueprint.route('/show/<id>')
+    def show(id):
+        """Show details about this group"""
+        if not g.user:
+            abort(401)
+        group = Group.objects.get(id=id)
+        return render_template("groups/show.html", group=group)

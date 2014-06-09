@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+
+{% block content%}
+  <div class="container vspace-three">
+    <div class="row">
+      <ol class="breadcrumb pull-right">
+        <li>
+          <a href="{{ url_for('users_blueprint.me') }}">My profile</a>
+        </li>
+        <li>
+          <a href="{{ url_for('groups_blueprint.list') }}">My groups</a>
+        </li>
+        <li>
+          <a href="{{ url_for('groups_blueprint.create') }}">Create group</a>
+        </li>
+      </ol>
+    </div>
+    <dl class="dl-horizontal">
+      <dt>Name</dt>
+      <dd>{{ group.name }}</dd>
+      <dt>Slug</dt>
+      <dd>{{ group.slug }}</dd>
+      <dt>Currency</dt>
+      <dd>{{ group.currency }}</dd>
+      <dt>Users</dt>
+      <dd>
+        <ul>
+          {% for member in group.members %}
+            <li>{{ member.name }}</li>
+          {% endfor %}
+        </ul>
+      </dd>
+    </dl>
+  </div>
+{% endblock %}

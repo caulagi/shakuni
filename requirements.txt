@@ -3,3 +3,4 @@ flask-restful
 mongoengine
 pytest
 Flask-WTF
+flask-openid

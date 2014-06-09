@@ -7,6 +7,18 @@
       {{ form.csrf_token }}
       {{ render_field(form.name) }}
       {{ render_field(form.slug) }}
+      <div class="form-group">
+        <label for="currency" class="col-sm-2 control-label">Currency</label>
+        <div class="col-sm-8">
+          <select name="currency" class="form-control">
+            <option value="INR">Indian Rupee</option>
+            <option value="USD">US Dollar</option>
+            <option value="EUR">Euro</option>
+            <option value="GBP">Pound</option>
+          </select>
+          <span class="help-block">Currency that the group will use</span>
+        </div>
+      </div>
       {{ render_submit_button("Save") }}
     </form>
   </div>

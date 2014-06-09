@@ -6,3 +6,4 @@ class GroupForm(Form):
     
     name = TextField('Group name', [Required()])
     slug = TextField('Slug')
+    currency = TextField('Currency', [Required()])
