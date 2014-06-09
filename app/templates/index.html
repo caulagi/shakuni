@@ -1,9 +1,16 @@
 {% extends "layout.html" %}
 
 {% block content %}
-  <div class="vspace-five text-center">
-    <a class="btn-auth btn-google large" href="/users/login">
-      Login with <b>Google</b>
-    </a>
+  <div class="landing text-center">
+    <div class="container">
+      <h2>An app to bet on FIFA World Cup 2014 matches among your friends</h2>
+      <ul class="list-unstyled">
+        <li><i class="fa fa-group"></i>&nbsp;&nbsp; Create a group</li>
+        <li><i class="fa fa-flask"></i>&nbsp;&nbsp; Invite friends</li>
+        <li><i class="fa fa-credit-card"></i>&nbsp;&nbsp;Bet!</li>
+        <li><i class="fa fa-gift"></i>&nbsp;&nbsp;Features: leaderboard, statistics (team, players)</li>
+      </ul>
+      <a class="btn btn-primary vspace-three" href="{{ url_for('users_blueprint.login') }}">Get started</a>
+    </div>
   </div>
 {% endblock %}

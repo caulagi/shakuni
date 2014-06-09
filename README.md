@@ -6,5 +6,5 @@ A betting app for football world cup among your friends
 
 ```    
 $ pip install -r requirements.txt
-$ PYTHONPATH=. python app/run.py
+$ python runserver.py
 ```
