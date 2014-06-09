@@ -25,6 +25,10 @@ def routes_init(application):
     def about():
         return render_template("about.html")
 
+    @application.route("/faq")
+    def faq():
+        return render_template("faq.html")
+
     import app.users.controllers as users_controller
     users_controller.init(application)
     application.register_blueprint(users_controller.users_blueprint, url_prefix="/users")
