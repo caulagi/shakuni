@@ -38,7 +38,7 @@ def init(application):
     def before_request():
         g.user = None
         if 'openid' in session:
-            g.user = User.query.filter_by(openid=session['openid']).first()
+            g.user = User.objects.filter(openid=session['openid']).first()
 
     @application.after_request
     def after_request(response):
@@ -76,68 +76,64 @@ def init(application):
         if 'pape' in resp.extensions:
             pape_resp = resp.extensions['pape']
             session['auth_time'] = pape_resp.auth_time
-        user = User.query.filter_by(openid=resp.identity_url).first()
+        user = User.objects.filter(openid=resp.identity_url).first()
         if user is not None:
             flash(u'Successfully signed in')
             g.user = user
-            return redirect(oid.get_next_url())
-        return redirect(url_for('create_profile', next=oid.get_next_url(),
+            return redirect(url_for('users_blueprint.edit_profile'))
+        return redirect(url_for('users_blueprint.create_profile', next=oid.get_next_url(),
                                 name=resp.fullname or resp.nickname,
                                 email=resp.email))
 
-
-@users_blueprint.route('/create-profile', methods=['GET', 'POST'])
-def create_profile():
-    """If this is the user's first login, the create_or_login function
-    will redirect here so that the user can set up his profile.
-    """
-    if g.user is not None or 'openid' not in session:
-        return redirect(url_for('index'))
-    if request.method == 'POST':
-        name = request.form['name']
-        email = request.form['email']
-        if not name:
-            flash(u'Error: you have to provide a name')
-        elif '@' not in email:
-            flash(u'Error: you have to enter a valid email address')
-        else:
-            flash(u'Profile successfully created')
-            db_session.add(User(name, email, session['openid']))
-            db_session.commit()
-            return redirect(oid.get_next_url())
-    return render_template('create_profile.html', next_url=oid.get_next_url())
-
-
-@users_blueprint.route('/profile', methods=['GET', 'POST'])
-def edit_profile():
-    """Updates a profile"""
-    if g.user is None:
-        abort(401)
-    form = dict(name=g.user.name, email=g.user.email)
-    if request.method == 'POST':
-        if 'delete' in request.form:
-            db_session.delete(g.user)
-            db_session.commit()
-            session['openid'] = None
-            flash(u'Profile deleted')
+    @users_blueprint.route('/create-profile', methods=['GET', 'POST'])
+    def create_profile():
+        """If this is the user's first login, the create_or_login function
+        will redirect here so that the user can set up his profile.
+        """
+        if g.user is not None or 'openid' not in session:
             return redirect(url_for('index'))
-        form['name'] = request.form['name']
-        form['email'] = request.form['email']
-        if not form['name']:
-            flash(u'Error: you have to provide a name')
-        elif '@' not in form['email']:
-            flash(u'Error: you have to enter a valid email address')
-        else:
-            flash(u'Profile successfully created')
-            g.user.name = form['name']
-            g.user.email = form['email']
-            db_session.commit()
-            return redirect(url_for('edit_profile'))
-    return render_template('edit_profile.html', form=form)
+        if request.method == 'POST':
+            name = request.form['name']
+            email = request.form['email']
+            if not name:
+                flash(u'Error: you have to provide a name')
+            elif '@' not in email:
+                flash(u'Error: you have to enter a valid email address')
+            else:
+                flash(u'Profile successfully created')
+                User.objects.create(name=name, email=email, openid=session['openid'])
+                return redirect(oid.get_next_url())
+        return render_template('users/create_profile.html', next_url=oid.get_next_url())
 
+    @users_blueprint.route('/profile', methods=['GET', 'POST'])
+    def edit_profile():
+        """Updates a profile"""
+        if g.user is None:
+            abort(401)
+        form = dict(name=g.user.name, email=g.user.email)
+        if request.method == 'POST':
+            if 'delete' in request.form:
+                db_session.delete(g.user)
+                db_session.commit()
+                session['openid'] = None
+                flash(u'Profile deleted')
+                return redirect(url_for('index'))
+            form['name'] = request.form['name']
+            form['email'] = request.form['email']
+            if not form['name']:
+                flash(u'Error: you have to provide a name')
+            elif '@' not in form['email']:
+                flash(u'Error: you have to enter a valid email address')
+            else:
+                flash(u'Profile successfully created')
+                g.user.name = form['name']
+                g.user.email = form['email']
+                db_session.commit()
+                return redirect(url_for('edit_profile'))
+        return render_template('users/edit_profile.html', form=form)
 
-@users_blueprint.route('/logout')
-def logout():
-    session.pop('openid', None)
-    flash(u'You have been signed out')
-    return redirect(oid.get_next_url())
+    @users_blueprint.route('/logout')
+    def logout():
+        session.pop('openid', None)
+        flash(u'You have been signed out')
+        return redirect(oid.get_next_url())

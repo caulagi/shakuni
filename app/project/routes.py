@@ -13,6 +13,10 @@ def routes_init(application):
     def page_not_found(e):
         return render_template('404.html'), 404
 
+    @application.errorhandler(401)
+    def page_not_found(e):
+        return render_template('401.html'), 401
+
     @application.route("/")
     def index():
         return render_template("index.html")
