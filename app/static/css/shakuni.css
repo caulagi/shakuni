@@ -3,10 +3,13 @@ body {
 }
 
 footer {
-  margin-top: 5em;
   text-align: center;
-  border-top: 1px solid #ddd;
-  padding-top: 2em;
+  padding-bottom: 4em;
+}
+
+.breadcrumb {
+  background-color: #fff;
+  border-radius: none;
 }
 
 .navbar-right {
@@ -22,10 +25,8 @@ footer {
 .vspace-five { margin-top: 5em; }
 
 .pomegranate { color: #c0392b; }
+
 .landing {
-  /*
-  background: url("http://upload.wikimedia.org/wikipedia/commons/b/b4/Aerial_view_of_the_Maracan%C3%A3_Stadium.jpg")  no-repeat center center fixed; 
-*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -51,6 +52,29 @@ footer {
 
 .landing li {
   margin-top: 20px;
+}
+
+hr.divider {
+  text-align: center;
+  line-height: 1px;
+  height: 1px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ddd;
+  margin: 4em 8em;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  -ms-box-sizing: content-box;
+  -o-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+hr.divider:after {
+  content: "§"; /* section sign */
+  color: #999;
+  display: inline; 
+  background-color: #fff;
+  padding: 0 0.5em;
 }
 
 /**

@@ -13,6 +13,14 @@ def routes_init(application):
     def page_not_found(e):
         return render_template('404.html'), 404
 
+    @application.route("/")
+    def index():
+        return render_template("index.html")
+
+    @application.route("/about")
+    def about():
+        return render_template("about.html")
+
     import app.users.controllers as users_controller
     users_controller.init(application)
     application.register_blueprint(users_controller.users_blueprint, url_prefix="/users")

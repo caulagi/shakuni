@@ -20,7 +20,3 @@ def create_app():
     return application
 
 application = create_app()
-
-@application.route("/")
-def index():
-    return render_template("index.html")
