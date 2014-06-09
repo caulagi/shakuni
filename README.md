@@ -4,7 +4,9 @@
 
 ## Dev setup
 
-```    
-$ pip install -r requirements.txt
-$ python runserver.py
-```
+ * Install mongodb - [download](http://www.mongodb.org/downloads)
+
+ ```    
+ $ pip install -r requirements.txt
+ $ python runserver.py
+ ```
