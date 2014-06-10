@@ -1,0 +1,50 @@
+{% extends "layout.html" %}
+
+{% block content%}
+  <div class="container vspace-three">
+    <div class="row">
+      <ol class="breadcrumb pull-right">
+        <li>
+          <a href="{{ url_for('users_blueprint.me') }}">My profile</a>
+        </li>
+        <li>
+          <a href="{{ url_for('groups_blueprint.list') }}">My groups</a>
+        </li>
+        <li>
+          <a href="{{ url_for('groups_blueprint.create') }}">Create group</a>
+        </li>
+      </ol>
+    </div>
+    <h4>{{ user.name }}, you are a member of the following groups -</h4>
+    <div class="table-responsive">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Slug</th>
+            <th>Currency</th>
+            <th>Admin</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            {% for group in groups %}
+              <td>
+                <a href="{{ url_for('groups_blueprint.show', id=group.id) }}">{{ group.name }}</a>
+              </td>
+              <td>{{ group.slug }}</td>
+              <td>{{ group.currency }}</td>
+              <td>
+                <ul>
+                  {% for admin in group.admins %}
+                    <li>{{ admin.name }}</li>
+                  {% endfor %}
+                </ul>
+              </td>
+            {% endfor %}
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+{% endblock %}

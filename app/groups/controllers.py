@@ -60,11 +60,15 @@ def init(application):
             flash("Created group successfully")
             return redirect(url_for("groups_blueprint.show", id=group.id))
         return render_template("groups/create.html", form=form)
-        
+
 
     @groups_blueprint.route('/list')
     def list():
-        pass
+        if not g.user:
+            abort(401)
+        m = MemberOf.objects.get(user=g.user)
+        return render_template("groups/list.html", user=m.user, groups=m.groups)
+
 
     @groups_blueprint.route('/show/<id>')
     def show(id):
