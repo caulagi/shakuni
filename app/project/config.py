@@ -9,7 +9,7 @@ DEBUG = True
 import os
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))  
 
-MONGO_DBNAME = os.environ.get("MONGDO_DBNAME") or "shakuni"
+MONGO_DBNAME = os.environ.get("MONGOHQ_URL") or "shakuni"
 
 THREADS_PER_PAGE = 2
 CSRF_ENABLED = True
