@@ -9,7 +9,7 @@ DEBUG = True
 import os
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))  
 
-MONGO_DBNAME = os.environ.get("MONGOHQ_URL") or "shakuni"
+MONGO_DBNAME = os.environ.get("MONGOHQ_URL") or "mongodb://localhost:27017/shakuni"
 
 THREADS_PER_PAGE = 2
 CSRF_ENABLED = True
