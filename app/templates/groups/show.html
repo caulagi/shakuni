@@ -22,7 +22,7 @@
       <dd>{{ group.slug }}</dd>
       <dt>Currency</dt>
       <dd>{{ group.currency }}</dd>
-      <dt>Users</dt>
+      <dt>Group members</dt>
       <dd>
         <ul>
           {% for member in group.members %}
@@ -30,6 +30,14 @@
           {% endfor %}
         </ul>
       </dd>
+      {% if is_admin %}
+        <dt>Invite url</dt>
+        <dd>
+          Invite your friends to join this group by sharing this link with them -
+          <a href="{{ url_for('groups_blueprint.join', id=group.id) }}">link</a>
+        </dd>
+      {% endif %}
+      <dd>
     </dl>
   </div>
 {% endblock %}

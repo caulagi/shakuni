@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block content %}
+  <div class="container vspace-three">
+    <dl class="dl-horizontal">
+      <dt>Name</dt>
+      <dd>{{ group.name }}</dd>
+      <dt>Slug</dt>
+      <dd>{{ group.slug }}</dd>
+      <dt>Currency</dt>
+      <dd>{{ group.currency }}</dd>
+      <dt>Group members</dt>
+      <dd>
+        <ul>
+          {% for member in group.members %}
+            <li>{{ member.name }}</li>
+          {% endfor %}
+        </ul>
+      </dd>
+    </dl>
+    <form method="POST" action="">
+      {{ form.csrf_token }}
+      <button type="submit" class="btn btn-success col-sm-offset-2">Join group</button>
+    </form>
+  </div>
+{% endblock %}

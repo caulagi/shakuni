@@ -17,8 +17,12 @@ def routes_init(application):
         return render_template('404.html'), 404
 
     @application.errorhandler(401)
-    def page_not_found(e):
+    def unauthorized(e):
         return render_template('401.html'), 401
+
+    @application.errorhandler(403)
+    def forbidden(e):
+        return render_template('403.html', error=e.description), 403
 
     @application.route("/")
     def index():

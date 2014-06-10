@@ -13,7 +13,7 @@ from flask import render_template, g, abort, url_for, redirect, \
 from flask import Blueprint
 
 from app.groups.models import Group, MemberOf
-from app.groups.forms import GroupForm
+from app.groups.forms import GroupForm, JoinGroupForm
 
 # setup logger
 logger = logging.getLogger('shakuni-groups')
@@ -66,8 +66,12 @@ def init(application):
     def list():
         if not g.user:
             abort(401)
-        m = MemberOf.objects.get(user=g.user)
-        return render_template("groups/list.html", user=m.user, groups=m.groups)
+        try:
+            m = MemberOf.objects.get(user=g.user)
+            groups = m.groups
+        except MemberOf.DoesNotExist:
+            groups = None
+        return render_template("groups/list.html", user=g.user, groups=groups)
 
 
     @groups_blueprint.route('/show/<id>')
@@ -76,4 +80,21 @@ def init(application):
         if not g.user:
             abort(401)
         group = Group.objects.get(id=id)
-        return render_template("groups/show.html", group=group)
+        is_admin = g.user in group.admins
+        return render_template("groups/show.html", group=group, is_admin=is_admin)
+
+
+    @groups_blueprint.route('/join/<id>', methods=['GET', 'POST'])
+    def join(id):
+        """Show details about this group"""
+        if not g.user:
+            abort(401)
+        if Group.objects(members__in=[g.user]):
+            abort(403, "You are already a member of this group")
+        group = Group.objects.get(id=id)
+        form = JoinGroupForm(request.form)
+        if form.validate_on_submit():
+            Group.objects(id=id).update_one(push__members=g.user)
+            flash("You have joined the group successfully")
+            return redirect(url_for("groups_blueprint.show", id=group.id))
+        return render_template("groups/join.html", form=form, group=group)
