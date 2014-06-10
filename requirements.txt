@@ -4,3 +4,4 @@ mongoengine
 pytest
 Flask-WTF
 flask-openid
+gunicorn
