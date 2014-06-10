@@ -24,6 +24,10 @@ def routes_init(application):
     def forbidden(e):
         return render_template('403.html', error=e.description), 403
 
+    @application.errorhandler(500)
+    def forbidden(e):
+        return render_template('500.html'), 500
+
     @application.route("/")
     def index():
         if g.user:

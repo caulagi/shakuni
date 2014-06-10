@@ -1,8 +1,7 @@
 {% extends "layout.html" %}
 
 {% block content %}
-  <form action="{{ url_for('users_blueprint.login') }}" method="POST" class="vspace-five text-center">
-    <input type="hidden" name="openid" value="https://www.google.com/accounts/o8/id">
-    <button type="submit" class="btn-auth btn-google">Login with Google</button>
+  <div class="container vspace-three text-center">
+    <a href="{{ url_for('users_blueprint.fb_login') }}" class="btn-auth btn-facebook">Login with Facebook</a>
   </div>
 {% endblock %}
