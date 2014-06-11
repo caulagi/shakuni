@@ -39,5 +39,35 @@
       {% endif %}
       <dd>
     </dl>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Match number</th>
+          <th>Team 1</th>
+          <th>Team 2</th>
+          <th>Start time</th>
+          <th>Bet cutoff time</th>
+          <th>Bet</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for gm in group_matches %}
+          <tr>
+            <td>{{ gm.match.match_number }}</td>
+            <td>
+              <a href="/">{{ gm.match.team1 }}</a>
+            </td>
+            <td>
+              <a href="/">{{ gm.match.team2 }}</a>
+            </td>
+            <td>{{ gm.match.start_time }}</td>
+            <td>{{ gm.cutoff }}</td>
+            <td>
+              <a href="#">Bet</a>
+            </td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
   </div>
 {% endblock %}

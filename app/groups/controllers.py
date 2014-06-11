@@ -12,8 +12,12 @@ from flask import render_template, g, abort, url_for, redirect, \
     request, flash
 from flask import Blueprint
 
+from dateutil.relativedelta import relativedelta
+
 from app.groups.models import Group, MemberOf
 from app.groups.forms import GroupForm, JoinGroupForm
+from app.bets.models import GroupMatch
+from app.matches.models import Match
 
 # setup logger
 logger = logging.getLogger('shakuni-groups')
@@ -47,6 +51,16 @@ def create_group(form):
         members = [g.user],
     )
     return update_members(form, group)
+
+def create_bets(group):
+    """New group was created.  Associate the new group with
+    each match"""
+    for match in Match.objects.all():
+        GroupMatch.objects.get_or_create(
+            group = group,
+            match = match,
+            cutoff = match.start_time -relativedelta(hours=2),
+        )
     
 def init(application):
 
@@ -57,6 +71,7 @@ def init(application):
         form = GroupForm(request.form)
         if form.validate_on_submit():
             group = create_group(form)
+            create_bets(group)
             flash("Created group successfully")
             return redirect(url_for("groups_blueprint.show", id=group.id))
         return render_template("groups/create.html", form=form)
@@ -80,8 +95,9 @@ def init(application):
         if not g.user:
             abort(401)
         group = Group.objects.get(id=id)
+        group_matches = GroupMatch.objects(group=group)
         is_admin = g.user in group.admins
-        return render_template("groups/show.html", group=group, is_admin=is_admin)
+        return render_template("groups/show.html", group=group, group_matches=group_matches, is_admin=is_admin)
 
 
     @groups_blueprint.route('/join/<id>', methods=['GET', 'POST'])

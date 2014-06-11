@@ -32,9 +32,8 @@ class Match(Document):
     team1 = ReferenceField(Team)
     team2 = ReferenceField(Team)
     start_time = DateTimeField(required=True)
-    bet_cutoff_time = DateTimeField()
     venue = StringField(max_length=64)
     match_number = IntField()
     
     def __str__(self):
-        return '%s vs %s' % (team1, team2)
+        return '%s vs %s' % (self.team1, self.team2)

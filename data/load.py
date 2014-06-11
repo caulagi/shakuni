@@ -17,7 +17,6 @@ def save_match(row):
         team1 = Team.objects.get(country = row[2]),
         team2 = Team.objects.get(country = row[3]),
         start_time = start_time,
-        bet_cutoff_time = start_time - relativedelta(hours=2),
         venue = row[4],
     )
 
