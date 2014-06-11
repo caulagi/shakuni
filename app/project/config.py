@@ -21,3 +21,11 @@ TEMPLATES_FOLDER = 'app/templates'
 
 FACEBOOK_APP_ID = os.environ.get("FACEBOOK_APP_ID") or '672966529447612'
 FACEBOOK_APP_SECRET = os.environ.get("FACEBOOK_APP_SECRET") or '8e4a083bb66fc0e81d18e3acbd3b52aa'
+
+# supported currencies
+CURRENCIES = (
+    ('INR', 'Indian Rupee'),
+    ('USD', 'US Dollar'),
+    ('GBP', 'Pound'),
+    ('EUR', 'Euro'),
+)
