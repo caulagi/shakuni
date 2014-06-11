@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% block content%}
+  {% from "forms/macros.html" import render_field, render_submit_button %}
+  <div class="container vspace-three">
+    <form method="POST" action="" class="form-horizontal">
+      {{ form.csrf_token }}
+      {{ render_field(form.amount) }}
+      <div class="form-group">
+        <label for="outcome" class="col-sm-2 control-label">Match outcome</label>
+        <div class="col-sm-8">
+          <select name="outcome" class="form-control">
+            <option value="-1">{{ group_match.match.team2 }} will win</option>
+            <option value="0">Draw</option>
+            <option value="1">{{ group_match.match.team1 }} will win</option>
+          </select>
+        </div>
+      </div>
+      {{ render_submit_button("Save") }}
+    </form>
+  </div>
+{% endblock %}

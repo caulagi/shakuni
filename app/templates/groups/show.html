@@ -51,7 +51,7 @@
             <td>{{ gm.match.start_time }}</td>
             <td>{{ gm.cutoff }}</td>
             <td>
-              <a href="#">Bet</a>
+              <a href="{{ url_for('bets_blueprint.create', id=gm.id) }}">Bet</a>
             </td>
           </tr>
         {% endfor %}

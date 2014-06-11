@@ -57,5 +57,9 @@ def routes_init(application):
     matches_controller.init(application)
     application.register_blueprint(matches_controller.matches_blueprint, url_prefix="/matches")
 
+    import app.bets.controllers as bets_controller
+    bets_controller.init(application)
+    application.register_blueprint(bets_controller.bets_blueprint, url_prefix="/bets")
+
     api = Api(application)
     return api

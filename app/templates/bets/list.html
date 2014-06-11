@@ -1,0 +1,43 @@
+{% extends "layout.html" %}
+
+{% block content%}
+  <div class="container vspace-three">
+    {% include "inc/nav.html" %}
+    <dl class="dl-horizontal well">
+      <dt>Match</dt>
+      <dd>{{ bets[0].group_match.match }}</dd>
+      <dt>Start time</dt>
+      <dd>{{ bets[0].group_match.match.start_time }}</dd>
+      <dt>Currency</dt>
+      <dd>{{ bets[0].currency }}</dd>
+    </dl>
+    <div class="table-responsive">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Amount</th>
+            <th>Outcome</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            {% for bet in bets %}
+              <td>{{ bet.user }}</td>
+              <td>{{ bet.amount }}</td>
+              <td>
+                {% if bet.outcome == -1 %}
+                  {{ bet.group_match.match.team2 }} to win
+                {% elif bet.outcome == 0 %}
+                  Draw
+                {% else %}
+                  {{ bet.group_match.match.team1 }} to win
+                {% endif %}
+            {% endfor %}
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+{% endblock %}
