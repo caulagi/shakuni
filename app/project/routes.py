@@ -31,7 +31,7 @@ def routes_init(application):
     @application.route("/")
     def index():
         if g.user:
-            size = 40
+            size = 120 
             gravatar_url = "http://www.gravatar.com/avatar/" + hashlib.md5(g.user.email.lower()).hexdigest() + "?"
             gravatar_url += urllib.urlencode({'d': 'retro', 's':str(size)})
             g.user.gravatar_url = gravatar_url
