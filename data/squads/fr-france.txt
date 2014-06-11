@@ -1,0 +1,23 @@
+ 1|GK|Hugo Lloris|Tottenham Hotspur ENG
+16|GK|Stéphane Ruffier|Saint-Étienne FRA
+23|GK|Mickaël Landreau|Bastia FRA
+ 2|DF|Mathieu Debuchy|Newcastle United ENG
+ 3|DF|Patrice Evra|Manchester United ENG
+ 4|DF|Raphaël Varane|Real Madrid ESP
+ 5|DF|Mamadou Sakho|Liverpool ENG
+13|DF|Eliaquim Mangala|Porto POR
+15|DF|Bacary Sagna|Arsenal ENG
+17|DF|Lucas Digne|Paris Saint-Germain FRA
+21|DF|Laurent Koscielny|Arsenal ENG
+ 6|MF|Yohan Cabaye|Paris Saint-Germain FRA
+ 8|MF|Mathieu Valbuena|Marseille FRA
+11|MF|Antoine Griezmann|Real Sociedad ESP
+12|MF|Rio Mavuba|Lille FRA
+14|MF|Blaise Matuidi|Paris Saint-Germain FRA
+18|MF|Moussa Sissoko|Newcastle United ENG
+19|MF|Paul Pogba|Juventus ITA
+22|MF|Morgan Schneiderlin|Southampton ENG
+ 7|FW|Rémy Cabella|Montpellier FRA
+ 9|FW|Olivier Giroud|Arsenal ENG
+10|FW|Karim Benzema|Real Madrid ESP
+20|FW|Loïc Rémy|Newcastle United ENG

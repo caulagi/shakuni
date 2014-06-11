@@ -1,0 +1,23 @@
+ 1|GK|Eduardo|Braga POR
+12|GK|Rui Patrício|Sporting POR
+22|GK|Beto|Sevilla ESP
+ 2|DF|Bruno Alves|Fenerbahçe TUR
+ 3|DF|Pepe|Real Madrid ESP
+ 5|DF|Fábio Coentrão|Real Madrid ESP
+13|DF|Ricardo Costa|Valencia ESP
+14|DF|Luís Neto|Zenit Saint Petersburg RUS
+19|DF|André Almeida|Benfica POR
+21|DF|João Pereira|Valencia ESP
+ 4|MF|Miguel Veloso|Dynamo Kyiv UKR
+ 6|MF|William Carvalho|Sporting POR
+ 8|MF|João Moutinho|AS Monaco FRA
+10|MF|Vieirinha|VfL Wolfsburg GER
+15|MF|Rafa Silva|Braga POR
+16|MF|Raul Meireles|Fenerbahçe TUR
+17|MF|Nani|Manchester United ENG
+18|MF|Silvestre Varela|Porto POR
+20|MF|Rúben Amorim|Benfica POR
+ 7|FW|Cristiano Ronaldo|Real Madrid ESP
+ 9|FW|Hugo Almeida|Beşiktaş TUR
+11|FW|Éder|Braga POR
+23|FW|Hélder Postiga|Lazio ITA

@@ -1,0 +1,23 @@
+ 1|GK|Thibaut Courtois|Atlético Madrid ESP
+12|GK|Simon Mignolet|Liverpool ENG
+13|GK|Sammy Bossut|Zulte Waregem BEL
+ 2|DF|Toby Alderweireld|Atlético Madrid ESP
+ 3|DF|Thomas Vermaelen|Arsenal ENG
+ 4|DF|Vincent Kompany|Manchester City ENG
+ 5|DF|Jan Vertonghen|Tottenham Hotspur ENG
+15|DF|Daniel Van Buyten|Bayern Munich GER
+18|DF|Nicolas Lombaerts|Zenit Saint Petersburg RUS
+21|DF|Anthony Vanden Borre|Anderlecht BEL
+23|DF|Laurent Ciman|Standard Liège BEL
+ 6|MF|Axel Witsel|Zenit Saint Petersburg RUS
+ 7|MF|Kevin De Bruyne|VfL Wolfsburg GER
+ 8|MF|Marouane Fellaini|Manchester United ENG
+10|MF|Eden Hazard|Chelsea ENG
+11|MF|Kevin Mirallas|Everton ENG
+16|MF|Steven Defour|Porto POR
+19|MF|Mousa Dembélé|Tottenham Hotspur ENG
+20|MF|Adnan Januzaj|Manchester United ENG
+22|MF|Nacer Chadli|Tottenham Hotspur ENG
+ 9|FW|Romelu Lukaku|Everton ENG
+14|FW|Dries Mertens|Napoli ITA
+17|FW|Divock Origi|Lille FRA

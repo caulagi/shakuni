@@ -1,0 +1,23 @@
+ 1|GK|Manuel Neuer|Bayern Munich GER
+12|GK|Ron-Robert Zieler|Hannover 96 GER
+22|GK|Roman Weidenfeller|Borussia Dortmund GER
+ 2|DF|Kevin Großkreutz|Borussia Dortmund GER
+ 4|DF|Benedikt Höwedes|Schalke 04 GER
+ 5|DF|Mats Hummels|Borussia Dortmund GER
+15|DF|Erik Durm|Borussia Dortmund GER
+16|DF|Philipp Lahm|Bayern Munich GER
+17|DF|Per Mertesacker|Arsenal ENG
+20|DF|Jérôme Boateng|Bayern Munich GER
+ 3|MF|Matthias Ginter|SC Freiburg GER
+ 6|MF|Sami Khedira|Real Madrid ESP
+ 7|MF|Bastian Schweinsteiger|Bayern Munich GER
+ 8|MF|Mesut Özil|Arsenal ENG
+ 9|MF|André Schürrle|Chelsea ENG
+13|MF|Thomas Müller|Bayern Munich GER
+14|MF|Julian Draxler|Schalke 04 GER
+18|MF|Toni Kroos|Bayern Munich GER
+19|MF|Mario Götze|Bayern Munich GER
+21|MF|Marco Reus|Borussia Dortmund GER
+23|MF|Christoph Kramer|Borussia Mönchengladbach GER
+10|FW|Lukas Podolski|Arsenal ENG
+11|FW|Miroslav Klose|Lazio ITA

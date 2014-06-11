@@ -1,0 +1,23 @@
+ 1|GK|Keylor Navas|Levante ESP
+18|GK|Patrick Pemberton|Alajuelense CRC
+23|GK|Daniel Cambronero|Herediano CRC
+ 2|DF|Johnny Acosta|Alajuelense CRC
+ 3|DF|Giancarlo González|Columbus Crew USA
+ 4|DF|Michael Umaña|Saprissa CRC
+ 6|DF|Óscar Duarte Club|Brugge BEL
+ 8|DF|Heiner Mora|Saprissa CRC
+12|DF|Waylon Francis|Columbus Crew USA
+15|DF|Júnior Díaz|Mainz 05 GER
+16|DF|Cristian Gamboa|Rosenborg NOR
+19|DF|Roy Miller|New York Red Bulls USA
+ 5|MF|Celso Borges|AIK SWE
+ 7|MF|Christian Bolaños|Copenhagen DEN
+11|MF|Michael Barrantes|Aalesund NOR
+13|MF|Esteban Granados|Herediano CRC
+17|MF|Yeltsin Tejeda|Saprissa CRC
+20|MF|Diego Calvo|Vålerenga NOR
+22|MF|José Miguel|Cubero Herediano CRC
+ 9|FW|Joel Campbell|Olympiacos GRE
+10|FW|Bryan Ruiz|PSV NED
+14|FW|Randall Brenes|Cartaginés CRC
+21|FW|Marco Ureña|Kuban Krasnodar RUS

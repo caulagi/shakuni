@@ -1,0 +1,23 @@
+ 1|GK|Eiji Kawashima|Standard Liège BEL
+12|GK|Shusaku Nishikawa|Urawa Red Diamonds JPN
+23|GK|Shūichi Gonda|F.C. Tokyo JPN
+ 2|DF|Atsuto Uchida|Schalke 04 GER
+ 3|DF|Gōtoku Sakai|VfB Stuttgart GER
+ 5|DF|Yuto Nagatomo|Internazionale ITA
+ 6|DF|Masato Morishige|F.C. Tokyo JPN
+15|DF|Yasuyuki Konno|Gamba Osaka JPN
+19|DF|Masahiko Inoha|Jubilo Iwata JPN
+21|DF|Hiroki Sakai|Hannover 96 GER
+22|DF|Maya Yoshida|Southampton ENG
+ 4|MF|Keisuke Honda|Milan ITA
+ 7|MF|Yasuhito Endō|Gamba Osaka JPN
+ 8|MF|Hiroshi Kiyotake|FC Nürnberg GER
+10|MF|Shinji Kagawa|Manchester United ENG
+14|MF|Toshihiro Aoyama|Sanfrecce Hiroshima JPN
+16|MF|Hotaru Yamaguchi|Cerezo Osaka JPN
+17|MF|Makoto Hasebe|FC Nürnberg GER
+ 9|FW|Shinji Okazaki|Mainz 05 GER
+11|FW|Yoichiro Kakitani|Cerezo Osaka JPN
+13|FW|Yoshito Ōkubo|Kawasaki Frontale JPN
+18|FW|Yuya Osako|1860 München GER
+20|FW|Manabu Saitō|Yokohama F. Marinos JPN

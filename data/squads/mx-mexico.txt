@@ -1,0 +1,23 @@
+ 1|GK|José de Jesús Corona|Cruz Azul MEX
+12|GK|Alfredo Talavera|Toluca MEX
+13|GK|Guillermo Ochoa|Ajaccio FRA
+ 2|DF|Francisco Javier Rodríguez|América MEX
+ 3|DF|Carlos Salcido|UANL MEX
+ 4|DF|Rafael Márquez|León MEX
+ 5|DF|Diego Reyes|Porto POR
+ 7|DF|Miguel Layún|América MEX
+15|DF|Héctor Moreno|Espanyol ESP
+16|DF|Miguel Ángel Ponce|Toluca MEX
+18|DF|Andrés Guardado|Bayer Leverkusen GER
+22|DF|Paul Aguilar|América MEX
+ 6|MF|Héctor Herrera|Porto POR
+ 8|MF|Marco Fabián|Cruz Azul MEX
+17|MF|Isaác Brizuela|Toluca MEX
+20|MF|Javier Aquino|Villarreal ESP
+21|MF|Carlos Peña|León MEX
+23|MF|José Juan Vázquez|León MEX
+ 9|FW|Raúl Jiménez|América MEX
+10|FW|Giovani dos Santos|Villarreal ESP
+11|FW|Alan Pulido|UANL MEX
+14|FW|Javier Hernández|Manchester United ENG
+19|FW|Oribe Peralta|Santos Laguna MEX

@@ -1,0 +1,23 @@
+ 1|GK|Steven Adams|Aduana Stars GHA
+12|GK|Adam Kwarasey|Strømsgodset NOR
+16|GK|Fatau Dauda|Orlando Pirates SAF
+ 2|DF|Samuel Inkoom|Platanias GRE
+ 4|DF|Daniel Opare|Standard Liège BEL
+15|DF|Rashid Sumaila|Mamelodi Sundowns SAF
+19|DF|Jonathan Mensah|Évian FRA
+21|DF|John Boye|Rennes FRA
+23|DF|Harrison Afful|Espérance TUN
+ 5|MF|Michael Essien|Milan ITA
+ 6|MF|Afriyie Acquah|Parma ITA
+ 7|MF|Christian Atsu|Vitesse NED
+ 8|MF|Emmanuel Agyemang-Badu|Udinese ITA
+10|MF|André Ayew|Marseille FRA
+11|MF|Sulley Muntari|Milan ITA
+14|MF|Albert Adomah|Middlesbrough ENG
+17|MF|Mohammed Rabiu|Kuban Krasnodar RUS
+20|MF|Kwadwo Asamoah|Juventus ITA
+22|MF|Wakaso Mubarak|Rubin Kazan RUS
+ 3|FW|Asamoah Gyan|Al-Ain UAE
+ 9|FW|Kevin-Prince Boateng|Schalke 04 GER
+13|FW|Jordan Ayew|Sochaux FRA
+18|FW|Majeed Waris|Valenciennes FRA

@@ -1,0 +1,23 @@
+ 1|GK|Igor Akinfeev|CSKA Moscow 
+12|GK|Yuri Lodygin|Zenit Saint Petersburg 
+16|GK|Sergey Ryzhikov|Rubin Kazan 
+ 2|DF|Aleksei Kozlov|Dynamo Moscow 
+ 3|DF|Georgi Shchennikov|CSKA Moscow 
+ 4|DF|Sergei Ignashevich|CSKA Moscow 
+ 5|DF|Andrei Semyonov|Terek Grozny 
+13|DF|Vladimir Granat|Dynamo Moscow 
+14|DF|Vasili Berezutski|CSKA Moscow 
+22|DF|Andrey Yeshchenko|Anzhi Makhachkala 
+23|DF|Dmitri Kombarov|Spartak Moscow 
+ 7|MF|Igor Denisov|Dynamo Moscow 
+ 8|MF|Denis Glushakov|Spartak Moscow 
+10|MF|Alan Dzagoev|CSKA Moscow 
+15|MF|Roman Shirokov|Krasnodar 
+17|MF|Oleg Shatov|Zenit Saint Petersburg 
+20|MF|Viktor Fayzulin|Zenit Saint Petersburg 
+ 6|FW|Maksim Kanunnikov|Rubin Kazan 
+ 9|FW|Aleksandr Kokorin|Dynamo Moscow 
+11|FW|Aleksandr Kerzhakov|Zenit Saint Petersburg 
+18|FW|Yuri Zhirkov|Dynamo Moscow 
+19|FW|Aleksandr Samedov|Lokomotiv Moscow 
+21|FW|Aleksei Ionov|Dynamo Moscow 

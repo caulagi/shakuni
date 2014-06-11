@@ -1,0 +1,23 @@
+ 1|GK|Luis López|Real España HON
+18|GK|Noel Valladares|Olimpia HON
+22|GK|Donis Escober|Olimpia HON
+ 2|DF|Osman Chávez|Qingdao Jonoon CHN
+ 3|DF|Maynor Figueroa|Hull City ENG
+ 4|DF|Juan Pablo|Montes Motagua HON
+ 5|DF|Víctor Bernárdez|San Jose Earthquakes USA
+ 6|DF|Juan Carlos García|Wigan Athletic ENG
+ 7|DF|Emilio Izaguirre|Celtic SCO
+23|DF|Brayan Beckeles|Olimpia HON
+ 8|MF|Wilson Palacios|Stoke City ENG
+10|MF|Mario Martínez|Real España HON
+12|MF|Edder Delgado|Real España HON
+14|MF|Óscar García|Houston Dynamo USA
+15|MF|Roger Espinoza|Wigan Athletic ENG
+17|MF|Marvin Chávez|Chivas USA USA
+19|MF|Luis Garrido|Olimpia HON
+20|MF|Jorge Claros|Motagua HON
+21|MF|Andy Najar|Anderlecht BEL
+ 9|FW|Jerry Palacios|Alajuelense CRC
+11|FW|Jerry Bengtson|New England Revolution USA
+13|FW|Carlo Costly|Real España HON
+16|FW|Rony Martínez|Real Sociedad HON

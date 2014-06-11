@@ -5,3 +5,4 @@ pytest
 Flask-WTF
 gunicorn
 Flask-OAuth
+python-dateutil

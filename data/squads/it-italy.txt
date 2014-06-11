@@ -1,0 +1,23 @@
+ 1|GK|Gianluigi Buffon|Juventus ITA
+12|GK|Salvatore Sirigu|Paris Saint-Germain FRA
+13|GK|Mattia Perin|Genoa ITA
+ 2|DF|Mattia De Sciglio|Milan ITA
+ 3|DF|Giorgio Chiellini|Juventus ITA
+ 4|DF|Matteo Darmian|Torino ITA
+ 7|DF|Ignazio Abate|Milan ITA
+15|DF|Andrea Barzagli|Juventus ITA
+19|DF|Leonardo Bonucci|Juventus ITA
+20|DF|Gabriel Paletta|Parma ITA
+ 5|MF|Thiago Motta|Paris Saint-Germain FRA
+ 6|MF|Antonio Candreva|Lazio ITA
+ 8|MF|Claudio Marchisio|Juventus ITA
+14|MF|Alberto Aquilani|Fiorentina ITA
+16|MF|Daniele De Rossi|Roma ITA
+18|MF|Marco Parolo|Parma ITA
+21|MF|Andrea Pirlo|Juventus ITA
+23|MF|Marco Verratti|Paris Saint-Germain FRA
+ 9|FW|Mario Balotelli|Milan ITA
+10|FW|Antonio Cassano|Parma ITA
+11|FW|Alessio Cerci|Torino ITA
+17|FW|Ciro Immobile|Torino ITA
+22|FW|Lorenzo Insigne|Napoli ITA

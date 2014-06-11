@@ -1,0 +1,23 @@
+ 1|GK|Vincent Enyeama|Lille FRA
+16|GK|Austin Ejide Hapoel|Be'er Sheva ISR
+21|GK|Chigozie Agbim|Gombe United NGA
+ 2|DF|Joseph Yobo|Norwich City ENG
+ 3|DF|Uwa Elderson Echiéjilé|AS Monaco FRA
+ 5|DF|Efe Ambrose|Celtic SCO
+ 6|DF|Azubuike Egwuekwe|Warri Wolves NGA
+12|DF|Kunle Odunlami|Sunshine Stars NGA
+13|DF|Juwon Oshaniwa|Ashdod ISR
+14|DF|Godfrey Oboabona|Çaykur Rizespor TUR
+22|DF|Kenneth Omeruo|Middlesbrough ENG
+ 4|MF|Reuben Gabriel|Waasland-Beveren BEL
+10|MF|John Obi Mikel|Chelsea ENG
+11|MF|Victor Moses|Liverpool ENG
+15|MF|Ramon Azeez|Almería ESP
+17|MF|Ogenyi Onazi|Lazio ITA
+18|MF|Michael Babatunde|Volyn Lutsk UKR
+ 7|FW|Ahmed Musa|CSKA Moscow RUS
+ 8|FW|Peter Odemwingie|Stoke City ENG
+ 9|FW|Emmanuel Emenike|Fenerbahçe TUR
+19|FW|Uche Nwofor|Heerenveen NED
+20|FW|Michael Uchebo|Cercle Brugge BEL
+23|FW|Shola Ameobi|Newcastle United ENG

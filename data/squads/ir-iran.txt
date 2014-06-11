@@ -1,0 +1,23 @@
+ 1|GK|Rahman Ahmadi|Sepahan IRN
+12|GK|Alireza Haghighi|Sporting Covilhã POR
+22|GK|Daniel Davari|Eintracht Braunschweig GER
+ 4|DF|Jalal Hosseini|Persepolis IRN
+ 5|DF|Amir Hossein|Sadeghi Esteghlal IRN
+13|DF|Hossein Mahini|Persepolis IRN
+15|DF|Pejman Montazeri|Umm Salal QAT
+17|DF|Ahmad Alenemeh|Naft Tehran IRN
+19|DF|Hashem Beikzadeh|Esteghlal IRN
+20|DF|Steven Beitashour|Vancouver Whitecaps CAN
+23|DF|Mehrdad Pouladi|Persepolis IRN
+ 2|MF|Khosro Heydari|Esteghlal IRN
+ 3|MF|Ehsan Hajsafi|Sepahan IRN
+ 6|MF|Javad Nekounam|Al-Kuwait KUW
+ 7|MF|Masoud Shojaei|Las Palmas ESP
+ 8|MF|Reza Haghighi|Persepolis IRN
+11|MF|Ghasem Haddadifar|Zob Ahan IRN
+14|MF|Andranik Teymourian|Esteghlal IRN
+18|MF|Bakhtiar Rahmani|Foolad IRN
+21|MF|Ashkan Dejagah|Fulham ENG
+ 9|FW|Alireza Jahanbakhsh|NEC NED
+10|FW|Karim Ansarifard|Tractor Sazi IRN
+16|FW|Reza Ghoochannejhad|Charlton Athletic ENG

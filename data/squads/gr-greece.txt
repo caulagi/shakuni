@@ -1,0 +1,23 @@
+ 1|GK|Orestis Karnezis|Granada ESP
+12|GK|Panagiotis Glykos|PAOK GRE
+13|GK|Stefanos Kapino|Panathinaikos GRE
+ 2|DF|Giannis Maniatis|Olympiacos GRE
+ 3|DF|Giorgos Tzavellas|PAOK GRE
+ 4|DF|Kostas Manolas|Olympiacos GRE
+ 5|DF|Vangelis Moras|Verona ITA
+11|DF|Loukas Vyntra|Levante ESP
+15|DF|Vasilis Torosidis|Roma ITA
+19|DF|Sokratis Papastathopoulos|Borussia Dortmund GER
+20|DF|José Holebas|Olympiacos GRE
+ 6|MF|Alexandros Tziolis|Kayserispor TUR
+ 8|MF|Panagiotis Kone|Bologna ITA
+10|MF|Giorgos Karagounis|Fulham ENG
+16|MF|Lazaros Christodoulopoulos|Bologna ITA
+18|MF|Giannis Fetfatzidis|Genoa ITA
+21|MF|Kostas Katsouranis|PAOK GRE
+22|MF|Andreas Samaris|Olympiacos GRE
+23|MF|Panagiotis Tachtsidis|Torino ITA
+ 7|FW|Giorgos Samaras|Celtic SCO
+ 9|FW|Kostas Mitroglou|Fulham ENG
+14|FW|Dimitris Salpingidis|PAOK GRE
+17|FW|Theofanis Gekas|Konyaspor TUR

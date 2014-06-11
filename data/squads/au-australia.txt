@@ -1,0 +1,23 @@
+ 1|GK|Mathew Ryan|Club Brugge BEL
+12|GK|Mitchell Langerak|Borussia Dortmund GER
+18|GK|Eugene Galeković|Adelaide United AUS
+ 2|DF|Ivan Franjić|Brisbane Roar AUS
+ 3|DF|Jason Davidson|Heracles Almelo NED
+ 6|DF|Matthew Špiranović|Western Sydney Wanderers AUS
+ 8|DF|Bailey Wright|Preston North End ENG
+19|DF|Ryan McGowan|Shandong Luneng Taishan CHN
+22|DF|Alex Wilkinson|Jeonbuk Hyundai Motors 
+ 5|MF|Mark Milligan|Melbourne Victory AUS
+10|MF|Ben Halloran|Fortuna Düsseldorf GER
+11|MF|Tommy Oar|Utrecht NED
+13|MF|Oliver Bozanić|Luzern SUI
+14|MF|James Troisi|Atalanta ITA
+15|MF|Mile Jedinak|Crystal Palace ENG
+16|MF|James Holland|Austria Wien AUT
+17|MF|Matt McKay|Brisbane Roar AUS
+20|MF|Dario Vidošić|Sion SWI
+21|MF|Massimo Luongo|Swindon Town ENG
+23|MF|Mark Bresciano|Al-Gharafa QAT
+ 4|FW|Tim Cahill|New York Red Bulls USA
+ 7|FW|Mathew Leckie|FSV Frankfurt GER
+ 9|FW|Adam Taggart|Newcastle Jets AUS

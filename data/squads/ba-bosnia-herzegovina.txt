@@ -1,0 +1,23 @@
+ 1|GK|Asmir BegovićStoke|City ENG
+12|GK|Jasmin FejzićVfR|Aalen GER
+22|GK|Asmir AvdukićBorac Banja|Luka BIH
+ 2|DF|Avdija VršajevićHajduk|Split CRO
+ 3|DF|Ermin BičakčićEintracht|Braunschweig GER
+ 4|DF|Emir SpahićBayer|Leverkusen GER
+ 5|DF|Sead Kolašinac|Schalke 04 GER
+ 6|DF|Ognjen Vranješ|Elazığspor TUR
+ 7|DF|Muhamed Bešić|Ferencváros HUN
+13|DF|Mensur Mujdža|SC Freiburg GER
+15|DF|Toni Šunjić Zorya|Luhansk UKR
+ 8|MF|Miralem Pjanić|Roma ITA
+10|MF|Zvjezdan Misimović|Guizhou Renhe CHN
+14|MF|Izet Hajrović|Galatasaray TUR
+16|MF|Senad Lulić|Lazio ITA
+17|MF|Senijad Ibričić|Kayseri Erciyesspor TUR
+18|MF|Haris Medunjanin|Gaziantepspor TUR
+20|MF|Anel Hadžić Sturm|Graz AUT
+21|MF|Tino-Sven Sušić|Hajduk Split CRO
+23|MF|Sejad Salihović|1899 Hoffenheim GER
+ 9|FW|Vedad Ibišević|VfB Stuttgart GER
+11|FW|Edin Džeko|Manchester City ENG
+19|FW|Edin Višća|İstanbul BB TUR

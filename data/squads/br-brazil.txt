@@ -1,0 +1,23 @@
+ 1|GK|Jefferson|Botafogo BRA
+12|GK|Júlio César|Toronto CAN
+22|GK|Victor|Atlético Mineiro BRA
+ 2|DF|Dani Alves|Barcelona ESP
+ 3|DF|Thiago Silva|Paris Saint-Germain FRA
+ 4|DF|David Luiz|Chelsea ENG
+ 6|DF|Marcelo|Real Madrid ESP
+13|DF|Dante|Bayern Munich GER
+14|DF|Maxwell|Paris Saint-Germain FRA
+15|DF|Henrique|Napoli ITA
+23|DF|Maicon|Roma ITA
+ 5|MF|Fernandinho|Manchester City ENG
+ 8|MF|Paulinho|Tottenham Hotspur ENG
+11|MF|Oscar|Chelsea ENG
+16|MF|Ramires|Chelsea ENG
+17|MF|Luiz Gustavo|VfL Wolfsburg GER
+18|MF|Hernanes|Internazionale ITA
+19|MF|Willian|Chelsea ENG
+ 7|FW|Hulk|Zenit Saint Petersburg RUS
+ 9|FW|Fred|Fluminense BRA
+10|FW|Neymar|Barcelona ESP
+20|FW|Bernard|Shakhtar Donetsk UKR
+21|FW|Jô|Atlético Mineiro BRA

@@ -1,0 +1,23 @@
+ 1|GK|Jung Sung-Ryong|Suwon Bluewings KOR
+21|GK|Kim Seung-Gyu|Ulsan Hyundai KOR
+23|GK|Lee Bum-Young|Busan I'Park KOR
+ 2|DF|Kim Chang-Soo|Kashiwa Reysol JPN
+ 3|DF|Yun Suk-Young|Queens Park Rangers ENG
+ 4|DF|Kwak Tae-Hwi|Al-Hilal KSA
+ 5|DF|Kim Young-Gwon|Guangzhou Evergrande CHN
+ 6|DF|Hwang Seok-Ho|Sanfrecce Hiroshima JPN
+12|DF|Lee Yong|Ulsan Hyundai KOR
+20|DF|Hong Jeong-Ho|FC Augsburg GER
+22|DF|Park Joo-Ho|Mainz 05 GER
+ 7|MF|Kim Bo-Kyung|Cardiff City WAL
+ 8|MF|Ha Dae-Sung|Beijing Guoan CHN
+13|MF|Koo Ja-Cheol|Mainz 05 GER
+14|MF|Han Kook-Young|Kashiwa Reysol JPN
+15|MF|Park Jong-Woo|Guangzhou R&F CHN
+16|MF|Ki Sung-Yueng|Sunderland ENG
+17|MF|Lee Chung-Yong|Bolton Wanderers ENG
+ 9|FW|Son Heung-Min|Bayer Leverkusen GER
+10|FW|Park Chu-Young|Watford ENG
+11|FW|Lee Keun-Ho|Sangju Sangmu KOR
+18|FW|Kim Shin-Wook|Ulsan Hyundai KOR
+19|FW|Ji Dong-Won|FC Augsburg GER

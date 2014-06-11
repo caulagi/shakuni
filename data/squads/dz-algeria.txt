@@ -1,0 +1,23 @@
+ 1|GK|Cédric Si Mohamed|CS Constantine ALG
+16|GK|Mohamed Zemmamouche|USM Alger ALG
+23|GK|Raïs M'Bolhi|CSKA Sofia BUL
+ 2|DF|Madjid Bougherra|Lekhwiya QAT
+ 3|DF|Faouzi Ghoulam|Napoli ITA
+ 4|DF|Essaïd Belkalem|Watford ENG
+ 5|DF|Rafik Halliche|Académica POR
+ 6|DF|Djamel Mesbah|Livorno ITA
+ 7|DF|Carl Medjani|Valenciennes FRA
+17|DF|Liassine Cadamuro-Bentaïba|Mallorca ESP
+20|DF|Aïssa Mandi|Reims FRA
+ 8|MF|Hassan Yebda|Udinese ITA
+10|MF|Sofiane Feghouli|Valencia ESP
+11|MF|Yacine Brahimi|Granada ESP
+12|MF|Medhi Lacen|Getafe ESP
+14|MF|Nabil Bentaleb|Tottenham Hotspur ENG
+18|MF|Abdelmoumene Djabou|Club Africain TUN
+19|MF|Saphir Taïder|Internazionale ITA
+21|MF|Riyad Mahrez|Leicester City ENG
+22|MF|Mehdi Mostefa|Ajaccio FRA
+ 9|FW|Nabil Ghilas|Porto POR
+13|FW|Islam Slimani|Sporting CP POR
+15|FW|El Arbi Hillel|Soudani Dinamo Zagreb CRO

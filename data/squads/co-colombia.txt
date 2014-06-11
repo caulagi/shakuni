@@ -1,0 +1,23 @@
+ 1|GK|David Ospina|Nice FRA
+12|GK|Camilo Vargas|Santa Fe COL
+22|GK|Faryd Mondragón|Deportivo Cali COL
+ 2|DF|Cristián Zapata|Milan ITA
+ 3|DF|Mario Yepes|Atalanta ITA
+ 4|DF|Santiago Arias|PSV NED
+ 7|DF|Pablo Armero|West Ham United ENG
+16|DF|Éder Álvarez|Balanta River Plate ARG
+18|DF|Juan Camilo|Zúñiga Napoli ITA
+23|DF|Carlos Valdés|San Lorenzo ARG
+ 5|MF|Carlos Carbonero|River Plate ARG
+ 6|MF|Carlos Sánchez|Elche ESP
+ 8|MF|Abel Aguilar|Toulouse FRA
+10|MF|James Rodríguez|AS Monaco FRA
+11|MF|Juan Guillermo|Cuadrado Fiorentina ITA
+13|MF|Fredy Guarín|Internazionale ITA
+14|MF|Víctor Ibarbo|Cagliari ITA
+15|MF|Alexander Mejía|Atlético Nacional COL
+20|MF|Juan Fernando|Quintero Porto POR
+ 9|FW|Teófilo Gutiérrez|River Plate ARG
+17|FW|Carlos Bacca|Sevilla ESP
+19|FW|Adrián Ramos|Hertha BSC GER
+21|FW|Jackson Martínez|Porto POR

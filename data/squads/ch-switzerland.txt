@@ -1,0 +1,23 @@
+ 1|GK|Diego Benaglio|VfL Wolfsburg GER
+12|GK|Yann Sommer|Basel SUI
+21|GK|Roman Bürki|Grasshopper SUI
+ 2|DF|Stephan Lichtsteiner|Juventus ITA
+ 3|DF|Reto Ziegler|Sassuolo ITA
+ 4|DF|Philippe Senderos|Valencia ESP
+ 5|DF|Steve von Bergen|Young Boys SUI
+ 6|DF|Michael Lang|Grasshopper SUI
+13|DF|Ricardo Rodríguez|VfL Wolfsburg GER
+20|DF|Johan Djourou|Hamburger SV GER
+22|DF|Fabian Schär|Basel SUI
+ 7|MF|Tranquillo Barnetta|Eintracht Frankfurt GER
+ 8|MF|Gökhan Inler|Napoli ITA
+10|MF|Granit Xhaka|Borussia Mönchengladbach GER
+11|MF|Valon Behrami|Napoli ITA
+14|MF|Valentin Stocker|Basel SUI
+15|MF|Blerim Džemaili|Napoli ITA
+16|MF|Gelson Fernandes|SC Freiburg GER
+23|MF|Xherdan Shaqiri|Bayern Munich GER
+ 9|FW|Haris Seferović|Real Sociedad ESP
+17|FW|Mario Gavranović|Zürich SUI
+18|FW|Admir Mehmedi SC|Freiburg GER
+19|FW|Josip Drmić|FC Nürnberg GER

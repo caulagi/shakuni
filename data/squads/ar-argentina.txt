@@ -1,0 +1,23 @@
+ 1|GK|Sergio Romero|AS Monaco FRA
+12|GK|Agustín Orión|Boca Juniors ARG
+21|GK|Mariano Andújar|Catania ITA
+ 2|DF|Ezequiel Garay|Benfica POR
+ 3|DF|Hugo Campagnaro|Internazionale ITA
+ 4|DF|Pablo Zabaleta|Manchester City ENG
+15|DF|Martín Demichelis|Manchester City ENG
+16|DF|Marcos Rojo|Sporting POR
+17|DF|Federico Fernández|Napoli ITA
+23|DF|José María Basanta|Monterrey MEX
+ 5|MF|Fernando Gago|Boca Juniors ARG
+ 6|MF|Lucas Biglia|Lazio ITA
+ 7|MF|Ángel di María|Real Madrid ESP
+ 8|MF|Enzo Pérez|Benfica POR
+11|MF|Maxi Rodríguez|Newell's Old Boys ARG
+13|MF|Augusto Fernández|Celta Vigo ESP
+14|MF|Javier Mascherano|Barcelona ESP
+19|MF|Ricardo Álvarez|Internazionale ITA
+ 9|FW|Gonzalo Higuaín|Napoli ITA
+10|FW|Lionel Messi|Barcelona ESP
+18|FW|Rodrigo Palacio|Internazionale ITA
+20|FW|Sergio Agüero|Manchester City ENG
+22|FW|Ezequiel Lavezzi|Paris Saint-Germain FRA

@@ -1,0 +1,23 @@
+ 1|GK|Máximo Banguera|Barcelona ECU
+12|GK|Adrián Bone El|Nacional ECU
+22|GK|Alexander Domínguez|LDU Quito ECU
+ 2|DF|Jorge Guagua|Emelec ECU
+ 3|DF|Frickson Erazo|Flamengo BRA
+ 4|DF|Juan Carlos Paredes|Barcelona ECU
+10|DF|Walter Ayoví|Pachuca MEX
+18|DF|Óscar Bagüí|Emelec ECU
+21|DF|Gabriel Achilier|Emelec ECU
+ 5|MF|Renato Ibarra|Vitesse NED
+ 6|MF|Christian Noboa|Dynamo Moscow RUS
+ 7|MF|Jefferson Montero|Morelia MEX
+ 8|MF|Édison Méndez|Santa Fe COL
+ 9|MF|Joao Rojas|Cruz Azul MEX
+14|MF|Segundo Castillo|Al-Hilal KSA
+15|MF|Michael Arroyo|Atlante MEX
+16|MF|Antonio Valencia|Manchester United ENG
+19|MF|Luis Saritama|Barcelona ECU
+20|MF|Fidel Martínez|Tijuana MEX
+23|MF|Carlos Gruezo|VfB Stuttgart GER
+11|FW|Felipe Caicedo|Al-Jazira UAE
+13|FW|Enner Valencia|Pachuca MEX
+17|FW|Jaime Ayoví|Tijuana MEX

@@ -1,0 +1,23 @@
+ 1|GK|Fernando Muslera|Galatasaray TUR
+12|GK|Rodrigo Muñoz|Libertad PAR
+23|GK|Martín Silva|Vasco da Gama BRA
+ 2|DF|Diego Lugano|West Bromwich Albion ENG
+ 3|DF|Diego Godín|Atlético Madrid ESP
+ 4|DF|Sebastián Coates|Nacional URU
+13|DF|Jorge Fucile|Porto POR
+16|DF|Maxi Pereira|Benfica POR
+19|DF|José María Giménez|Atlético Madrid ESP
+22|DF|Martín Cáceres|Juventus ITA
+ 5|MF|Walter Gargano|Parma ITA
+ 6|MF|Álvaro Pereira|São Paulo BRA
+ 7|MF|Cristian Rodríguez|Atlético Madrid ESP
+14|MF|Nicolás Lodeiro|Botafogo BRA
+15|MF|Diego Pérez|Bologna ITA
+17|MF|Egidio Arévalo Ríos|Morelia MEX
+18|MF|Gastón Ramírez|Southampton ENG
+20|MF|Álvaro González|Lazio ITA
+ 8|FW|Abel Hernández|Palermo ITA
+ 9|FW|Luis Suárez|Liverpool ENG
+10|FW|Diego Forlán Cerezo|Osaka JPN
+11|FW|Christian Stuani|Espanyol ESP
+21|FW|Edinson Cavani|Paris Saint-Germain FRA

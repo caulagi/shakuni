@@ -1,0 +1,23 @@
+ 1|GK|Claudio Bravo|Real Sociedad ESP
+12|GK|Cristopher Toselli|Universidad Católica CHI
+23|GK|Johnny Herrera|Universidad de Chile CHI
+ 2|DF|Eugenio Mena|Santos BRA
+ 3|DF|Miiko Albornoz|Malmö FF SWE
+13|DF|José Rojas|Universidad de Chile CHI
+17|DF|Gary Medel|Cardiff City WAL
+18|DF|Gonzalo Jara|Nottingham Forest ENG
+ 4|MF|Mauricio Isla|Juventus ITA
+ 5|MF|Francisco Silva|Osasuna ESP
+ 6|MF|Carlos Carmona|Atalanta ITA
+ 8|MF|Arturo Vidal|Juventus ITA
+10|MF|Jorge Valdívia|Palmeiras BRA
+14|MF|Fabián Orellana|Celta Vigo ESP
+15|MF|Jean Beausejour|Wigan Athletic ENG
+16|MF|Felipe Gutiérrez|Twente NED
+19|MF|José Pedro Fuenzalida|Colo-Colo CHI
+20|MF|Charles Aránguiz|Internacional BRA
+21|MF|Marcelo Díaz|Basel SWI
+ 7|FW|Alexis Sánchez|Barcelona ESP
+ 9|FW|Mauricio Pinilla|Cagliari ITA
+11|FW|Eduardo Vargas|Valencia ESP
+22|FW|Esteban Paredes|Colo-Colo CHI

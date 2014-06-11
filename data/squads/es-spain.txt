@@ -1,0 +1,23 @@
+ 1|GK|Iker Casillas|Real Madrid ESP
+12|GK|David de Gea|Manchester United ENG
+23|GK|Pepe Reina|Napoli ITA
+ 2|DF|Raúl Albiol|Napoli ITA
+ 3|DF|Gerard Piqué|Barcelona ESP
+ 5|DF|Juanfran|Atlético Madrid ESP
+15|DF|Sergio Ramos|Real Madrid ESP
+18|DF|Jordi Alba|Barcelona ESP
+22|DF|César Azpilicueta|Chelsea ENG
+ 4|MF|Javi Martínez|Bayern Munich GER
+ 6|MF|Andrés Iniesta|Barcelona ESP
+ 8|MF|Xavi|Barcelona ESP
+10|MF|Cesc Fàbregas|Barcelona ESP
+13|MF|Juan Mata|Manchester United ENG
+14|MF|Xabi Alonso|Real Madrid ESP
+16|MF|Sergio Busquets|Barcelona ESP
+17|MF|Koke Atlético|Madrid ESP
+20|MF|Santi Cazorla|Arsenal ENG
+21|MF|David Silva|Manchester City ENG
+ 7|FW|David Villa|Atlético Madrid ESP
+ 9|FW|Fernando Torres|Chelsea ENG
+11|FW|Pedro|Barcelona ESP
+19|FW|Diego Costa|Atlético Madrid ESP

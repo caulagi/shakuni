@@ -1,0 +1,23 @@
+ 1|GK|Tim Howard|Everton ENG
+12|GK|Brad Guzan|Aston Villa ENG
+22|GK|Nick Rimando|Real Salt Lake USA
+ 2|DF|DeAndre Yedlin|Seattle Sounders FC USA
+ 3|DF|Omar Gonzalez|Los Angeles Galaxy USA
+ 5|DF|Matt Besler|Sporting Kansas City USA
+ 6|DF|John Brooks|Hertha BSC GER
+ 7|DF|DaMarcus Beasley|Puebla MEX
+20|DF|Geoff Cameron|Stoke City ENG
+21|DF|Timothy Chandler|FC Nürnberg GER
+23|DF|Fabian Johnson|1899 Hoffenheim GER
+ 4|MF|Michael Bradley|Toronto FC CAN
+10|MF|Mikkel Diskerud|Rosenborg NOR
+11|MF|Alejandro Bedoya|Nantes FRA
+13|MF|Jermaine Jones|Beşiktaş TUR
+14|MF|Brad Davis Houston|Dynamo USA
+15|MF|Kyle Beckerman|Real Salt Lake USA
+16|MF|Julian Green|Bayern Munich GER
+19|MF|Graham Zusi|Sporting Kansas City USA
+ 8|FW|Clint Dempsey|Seattle Sounders FC USA
+ 9|FW|Aron Jóhannsson|AZ NED
+17|FW|Jozy Altidore|Sunderland ENG
+18|FW|Chris Wondolowski|San Jose Earthquakes USA

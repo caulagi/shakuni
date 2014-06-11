@@ -6,7 +6,20 @@
 
  * Install mongodb - [download](http://www.mongodb.org/downloads)
 
- ```    
- $ pip install -r requirements.txt
- $ python runserver.py
- ```
+ * Install dependencies
+
+    ```
+    $ pip install -r requirements.txt
+    ```
+
+ * Load data
+
+    ```
+    $ python data/load.py
+    ```
+
+ *  Go to [localhost](http://localhost:5000)
+
+    ```
+    $ python runserver.py
+    ```

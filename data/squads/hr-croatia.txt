@@ -1,0 +1,23 @@
+ 1|GK|Stipe Pletikosa|Rostov RUS
+12|GK|Oliver Zelenika|Lokomotiva CRO
+23|GK|Danijel Subašić|AS Monaco FRA
+ 2|DF|Šime Vrsaljko|Genoa ITA
+ 3|DF|Danijel Pranjić|Panathinaikos GRE
+ 5|DF|Vedran Ćorluka|Lokomotiv Moscow RUS
+ 6|DF|Dejan Lovren|Southampton ENG
+11|DF|Darijo Srna|Shakhtar Donetsk UKR
+13|DF|Gordon Schildenfeld|Panathinaikos GRE
+21|DF|Domagoj Vida|Dynamo Kyiv UKR
+ 4|MF|Ivan Perišić|VfL Wolfsburg GER
+ 7|MF|Ivan Rakitić|Sevilla ESP
+ 8|MF|Ognjen Vukojević|Dynamo Kyiv UKR
+10|MF|Luka Modrić|Real Madrid ESP
+14|MF|Marcelo Brozović|Dinamo Zagreb CRO
+15|MF|Ivan Močinić|Rijeka CRO
+19|MF|Sammir|Getafe SPA
+20|MF|Mateo Kovačić|Internazionale ITA
+ 9|FW|Nikica Jelavić|Hull City ENG
+16|FW|Ante Rebić|Fiorentina ITA
+17|FW|Mario Mandžukić|Bayern Munich GER
+18|FW|Ivica Olić|VfL Wolfsburg GER
+22|FW|Eduardo|Shakhtar Donetsk UKR
