@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block content %}
+  <div class="container vspace-three">
+    <dl class="dl-horizontal">
+      <dt>Name</dt>
+      <dd>{{ player.name }}</dd>
+      <dt>Country</dt>
+      <dd>{{ player.country }}</dd>
+      <dt>Club</dt>
+      <dd>{{ player.club }}</dd>
+      <dt>Jersey (country)</dt>
+      <dd>{{ player.jersey }}</dd>
+      <dt>Position</dt>
+      <dd>{{ player.position }}</dd>
+    </dl>
+  </div>
+{% endblock %}

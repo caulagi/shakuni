@@ -34,6 +34,7 @@ def save_player(row):
         position = row[1],
         name = row[2],
         club = row[3],
+        country = row[4],
     )
 
 def load_teams():
@@ -44,6 +45,7 @@ def load_teams():
             print "Loading %s" % f
             reader = csv.reader(f, delimiter='|')
             for row in reader:
+                row.append(team.country)
                 player, created = save_player(row)
                 players.append(player)
             team.players = players

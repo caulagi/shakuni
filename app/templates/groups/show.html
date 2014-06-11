@@ -55,10 +55,10 @@
           <tr>
             <td>{{ gm.match.match_number }}</td>
             <td>
-              <a href="/">{{ gm.match.team1 }}</a>
+              <a href="{{ url_for('matches_blueprint.team', id=gm.match.team1.id) }}">{{ gm.match.team1 }}</a>
             </td>
             <td>
-              <a href="/">{{ gm.match.team2 }}</a>
+              <a href="{{ url_for('matches_blueprint.team', id=gm.match.team2.id) }}">{{ gm.match.team2 }}</a>
             </td>
             <td>{{ gm.match.start_time }}</td>
             <td>{{ gm.cutoff }}</td>

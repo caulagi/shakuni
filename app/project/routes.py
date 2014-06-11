@@ -53,5 +53,9 @@ def routes_init(application):
     groups_controller.init(application)
     application.register_blueprint(groups_controller.groups_blueprint, url_prefix="/groups")
 
+    import app.matches.controllers as matches_controller
+    matches_controller.init(application)
+    application.register_blueprint(matches_controller.matches_blueprint, url_prefix="/matches")
+
     api = Api(application)
     return api

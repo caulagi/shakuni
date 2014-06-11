@@ -12,6 +12,7 @@ class Player(Document):
     jersey = IntField()
     club = StringField(max_length=32)
     position = StringField(max_length=2)
+    country = StringField(max_length=64)
 
     def __str__(self):
         return self.name
