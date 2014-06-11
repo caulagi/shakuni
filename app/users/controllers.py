@@ -85,10 +85,6 @@ def init(application):
         g.user = get_or_create_user(me.data)
         return redirect(url_for("users_blueprint.me"))
 
-    @users_blueprint.route('/edit-profile', methods=['GET', 'POST'])
-    def edit_profile():
-        pass
-
     @facebook.tokengetter
     def get_facebook_oauth_token():
         return session.get('oauth_token')

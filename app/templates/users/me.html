@@ -1,21 +1,48 @@
 {% extends "layout.html" %}
 
 {% block content%}
-  <div class="container vspace-three">
-    <p class="lead">Hello {{ user.name }}!</p>
-    <ul>
-      <li>
-        <a href="{{ url_for('groups_blueprint.list') }}">View my groups</a>
-      </li>
-      <li>
-        <a href="{{ url_for('groups_blueprint.create') }}">Create a group</a>
-      </li>
-      <li>
-        <a href="{{ url_for('users_blueprint.edit_profile') }}">Edit my profile</a>
-      </li>
-      <li>
-        <a href="{{ url_for('users_blueprint.logout') }}">Logout</a>
-      </li>
-    </ul>
+  <div class="container vspace-one">
+    <div class="row">
+      <ol class="breadcrumb pull-right">
+        <li>
+          <a href="{{ url_for('groups_blueprint.list') }}">View my groups</a>
+        </li>
+        <li>
+          <a href="{{ url_for('groups_blueprint.create') }}">Create a group</a>
+        </li>
+        <li>
+          <a href="{{ url_for('users_blueprint.logout') }}">Logout</a>
+        </li>
+      </ol>
+    </div>
+    <h3>Hello {{ user.name }}!</h3>
+    <div class="vspace-two">
+      {% if bets %}
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Group</th>
+              <th>Match</th>
+              <th>Amount</th>
+              <th>Pot</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for bet in bets %}
+              <tr>
+                <td>{{ bet.group_match.group }}</td>
+                <td>{{ bet.group_match.match }}</td>
+                <td>{{ bet.amount }} {{bet.currency}}</td>
+                <td>{{ bet.pot() }}</td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      {% else %}
+        <p class="text-danger text-center">
+          <strong>You have not placed any bets!</strong>
+        </p>
+      {% endif %}
+    </div>
   </div>
 {% endblock %}
