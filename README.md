@@ -15,7 +15,7 @@
  * Load data
 
     ```
-    $ python data/load.py
+    $ PYTHONPATH=. python data/load.py
     ```
 
  *  Go to [localhost](http://localhost:5000)
