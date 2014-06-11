@@ -2,19 +2,7 @@
 
 {% block content%}
   <div class="container vspace-one">
-    <div class="row">
-      <ol class="breadcrumb pull-right">
-        <li>
-          <a href="{{ url_for('groups_blueprint.list') }}">View my groups</a>
-        </li>
-        <li>
-          <a href="{{ url_for('groups_blueprint.create') }}">Create a group</a>
-        </li>
-        <li>
-          <a href="{{ url_for('users_blueprint.logout') }}">Logout</a>
-        </li>
-      </ol>
-    </div>
+    {% include "inc/nav.html" %}
     <h3>Hello {{ user.name }}!</h3>
     <div class="vspace-two">
       {% if bets %}
