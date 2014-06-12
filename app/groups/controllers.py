@@ -112,6 +112,7 @@ def init(application):
         form = JoinGroupForm(request.form)
         if form.validate_on_submit():
             Group.objects(id=id).update_one(push__members=g.user)
+            MemberOf.objects(user=g.user).update_one(push__group=group)
             flash("You have joined the group successfully")
             return redirect(url_for("groups_blueprint.show", id=group.id))
         return render_template("groups/join.html", form=form, group=group)
