@@ -9,8 +9,8 @@
         </tr>
       </thead>
       <tbody>
-        <tr>
-          {% for bet in bets %}
+        {% for bet in bets %}
+          <tr>
             <td>{{ bet.user }}</td>
             <td>{{ bet.amount }} {{ bet.currency }}</td>
             <td>
@@ -22,8 +22,8 @@
                 {{ bet.group_match.match.team1 }} to win
               {% endif %}
             </td>
-          {% endfor %}
-        </tr>
+          </tr>
+        {% endfor %}
       </tbody>
     </table>
   {% else %}
