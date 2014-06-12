@@ -14,5 +14,8 @@
       <dd><strong> {{ bets[0].pot() }}</strong></dd>
     </dl>
     {% include "inc/bets_list.html" %}
+    <div class="row text-center">
+      <a href="{{ url_for('bets_blueprint.create', id=bets[0].group_match.id) }}" class="btn btn-success">Update bet</a>
+    </div>
   </div>
 {% endblock %}
