@@ -1,0 +1,32 @@
+<div class="table-responsive">
+  {% if bets %}
+    <table class="table table-striped table-bordered">
+      <thead>
+        <tr>
+          <th>User</th>
+          <th>Amount</th>
+          <th>Bet on</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          {% for bet in bets %}
+            <td>{{ bet.user }}</td>
+            <td>{{ bet.amount }} {{ bet.currency }}</td>
+            <td>
+              {% if bet.outcome == -1 %}
+                {{ bet.group_match.match.team2 }} to win
+              {% elif bet.outcome == 0 %}
+                Draw
+              {% else %}
+                {{ bet.group_match.match.team1 }} to win
+              {% endif %}
+            </td>
+          {% endfor %}
+        </tr>
+      </tbody>
+    </table>
+  {% else %}
+    <div class="well">There are <b>no</b> bets yet!</div>
+  {% endif %}
+</div>
