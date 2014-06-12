@@ -7,8 +7,10 @@
       <ul class="list-unstyled">
         <li><i class="fa fa-group"></i>&nbsp;&nbsp; Create a group</li>
         <li><i class="fa fa-flask"></i>&nbsp;&nbsp; Invite friends</li>
-        <li><i class="fa fa-credit-card"></i>&nbsp;&nbsp;Bet!</li>
-        <li><i class="fa fa-gift"></i>&nbsp;&nbsp;Features: leaderboard, statistics (team, players)</li>
+        <li>
+          <i class="fa fa-credit-card"></i>&nbsp;&nbsp; Fantasy Bet!
+          <strong><a href="/faq">Know more</a>
+        </li>
       </ul>
       {% if user %}
         <a href="{{ url_for('users_blueprint.me') }}">
