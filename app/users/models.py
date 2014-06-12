@@ -9,7 +9,7 @@ class User(Document):
     """A User object"""
     
     name  = StringField(max_length=128, required=True)
-    email = StringField(max_length=128, required=True)
+    email = StringField(max_length=128)
     first_name = StringField(max_length=128, required=True)
     last_name = StringField(max_length=128, required=True)
     facebook_id = StringField(max_length=128, required=True)
