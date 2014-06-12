@@ -12,8 +12,7 @@ from flask import render_template, g, abort, url_for, redirect, \
     request, flash
 from flask import Blueprint
 
-from dateutil.relativedelta import relativedelta
-
+from dateutil.relativedelta import relativedelta 
 from app.groups.models import Group, MemberOf
 from app.groups.forms import GroupForm, JoinGroupForm
 from app.bets.models import GroupMatch
@@ -26,12 +25,12 @@ logger = logging.getLogger('shakuni-groups')
 groups_blueprint = Blueprint('groups_blueprint', __name__)
 
 
-def update_members(form, group):
+def update_members(group):
     """Add the group to the reverse document (MembersOf)"""
 
     doc = MemberOf.objects(user = g.user)
     if doc:
-        doc.update_one(push__groups = g.user)
+        doc.update_one(push__groups = group)
     else:
         MemberOf.objects.create(
             user = g.user,
@@ -50,7 +49,7 @@ def create_group(form):
         admins = [g.user],
         members = [g.user],
     )
-    return update_members(form, group)
+    return update_members(group)
 
 def create_bets(group):
     """New group was created.  Associate the new group with
@@ -106,13 +105,16 @@ def init(application):
         """Show details about this group"""
         if not g.user:
             abort(401)
-        if Group.objects(members__in=[g.user]):
+        try:
+            group = Group.objects.get(id=id)
+        except Group.DoesNotExist:
+            abort(404)
+        if g.user in group.members:
             abort(403, "You are already a member of this group")
-        group = Group.objects.get(id=id)
         form = JoinGroupForm(request.form)
         if form.validate_on_submit():
             Group.objects(id=id).update_one(push__members=g.user)
-            MemberOf.objects(user=g.user).update_one(push__group=group)
+            update_members(group)
             flash("You have joined the group successfully")
             return redirect(url_for("groups_blueprint.show", id=group.id))
         return render_template("groups/join.html", form=form, group=group)
