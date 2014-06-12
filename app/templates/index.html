@@ -9,16 +9,17 @@
         <li><i class="fa fa-flask"></i>&nbsp;&nbsp; Invite friends</li>
         <li>
           <i class="fa fa-credit-card"></i>&nbsp;&nbsp; Fantasy Bet!
-          <strong><a href="/faq">Know more</a>
         </li>
       </ul>
-      {% if user %}
-        <a href="{{ url_for('users_blueprint.me') }}">
-          <img class="img-rounded" src="{{ user.gravatar_url }}">
-        </a>
-      {% else %}
-        <a class="btn btn-primary vspace-three" href="{{ url_for('users_blueprint.login') }}">Get started</a>
-      {% endif %}
+      <div class="vspace-two">
+        {% if user %}
+          <a href="{{ url_for('users_blueprint.me') }}">
+            <img class="img-rounded" src="{{ user.gravatar_url }}">
+          </a>
+        {% else %}
+          <a class="btn btn-primary vspace-three" href="{{ url_for('users_blueprint.login') }}">Get started</a>
+        {% endif %}
+      </div>
     </div>
   </div>
 {% endblock %}
