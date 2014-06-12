@@ -5,6 +5,7 @@ Models relating to bets placed
 """
 import datetime
 from mongoengine import *
+from decimal import Decimal
 
 from app.groups.models import Group
 from app.users.models import User
@@ -26,6 +27,16 @@ class GroupMatch(Document):
     def __str__(self):
         return "%s: %s" % (self.match, self.group)
 
+    def time_remaining(self):
+        return self.cutoff - datetime.datetime.now()
+
+    def amount_bet(self, user):
+        """If the user has bet any amount on this match,
+        return the amount, or 0"""
+        try:
+            return Bet.objects.get(group_match = self, user=user).amount
+        except Bet.DoesNotExist:
+            return Decimal(0)
 
 class Bet(Document):
     """Bet that a user has placed"""
@@ -50,6 +61,9 @@ class Bet(Document):
     def __str__(self):
         return "%s: %s" % (self.bet, self.user)
         
+    def pot(self):
+        bets = Bet.objects(group_match = self.group_match)
+        return sum(map(lambda x: x.amount, bets))
 
 class WinnerBet(Document):
     """Bet placed at the beginning of the tournament on who
@@ -67,4 +81,4 @@ class WinnerBet(Document):
     }
 
     def __str__(self):
-        return "%s -> %s" % (self.user, self.team)
+        return u"%s: %s" % (str(self.user), str(self.team))

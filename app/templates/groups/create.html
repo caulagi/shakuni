@@ -4,6 +4,7 @@
   {% from "forms/macros.html" import render_field, render_submit_button %}
   <div class="container vspace-three">
     <form method="POST" action="" class="form-horizontal">
+      <legend>New group form</legend>
       {{ form.csrf_token }}
       {{ render_field(form.name) }}
       {{ render_field(form.slug) }}

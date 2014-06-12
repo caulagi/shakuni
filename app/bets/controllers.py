@@ -37,6 +37,7 @@ def create_bet(form, group_match):
             user = g.user,
             amount = form.amount.data,
             outcome = form.outcome.data,
+            currency = group_match.group.currency
         )
 
 def init(application):
@@ -47,7 +48,7 @@ def init(application):
         if not g.user:
             abort(401)
         try:
-            group_match = GroupMatch.objects(id=id)
+            group_match = GroupMatch.objects.get(id=id)
         except GroupMatch.DoesNotExist:
             abort(403, "Not a valid match")
         bets = Bet.objects(group_match = group_match)

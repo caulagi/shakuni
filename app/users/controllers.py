@@ -14,6 +14,7 @@ from flask_oauth import OAuth
 
 from app.project import config
 from app.users.models import User
+from app.bets.models import Bet
 
 oauth = OAuth()
 
@@ -99,4 +100,5 @@ def init(application):
     def me():
         if g.user is None:
             abort(401)
-        return render_template('users/me.html', user=g.user)
+        bets = Bet.objects(user = g.user)
+        return render_template('users/me.html', user=g.user, bets=bets)

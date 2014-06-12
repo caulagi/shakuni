@@ -27,35 +27,37 @@
       {% endif %}
       <dd>
     </dl>
-    <table class="table table-striped">
-      <thead>
-        <tr>
-          <th>Match number</th>
-          <th>Team 1</th>
-          <th>Team 2</th>
-          <th>Start time</th>
-          <th>Bet cutoff time</th>
-          <th>Bet</th>
-        </tr>
-      </thead>
-      <tbody>
-        {% for gm in group_matches %}
+    <div class="table-responsive">
+      <table class="table table-striped table-bordered">
+        <thead>
           <tr>
-            <td>{{ gm.match.match_number }}</td>
-            <td>
-              <a href="{{ url_for('matches_blueprint.team', id=gm.match.team1.id) }}">{{ gm.match.team1 }}</a>
-            </td>
-            <td>
-              <a href="{{ url_for('matches_blueprint.team', id=gm.match.team2.id) }}">{{ gm.match.team2 }}</a>
-            </td>
-            <td>{{ gm.match.start_time }}</td>
-            <td>{{ gm.cutoff }}</td>
-            <td>
-              <a href="{{ url_for('bets_blueprint.create', id=gm.id) }}">Bet</a>
-            </td>
+            <th>Match number</th>
+            <th>Team 1</th>
+            <th>Team 2</th>
+            <th>Time remaining to bet</th>
+            <th>Amount bet</th>
+            <th>Bet</th>
           </tr>
-        {% endfor %}
-      </tbody>
-    </table>
+        </thead>
+        <tbody>
+          {% for gm in group_matches %}
+            <tr>
+              <td>{{ gm.match.match_number }}</td>
+              <td>
+                <a href="{{ url_for('matches_blueprint.team', id=gm.match.team1.id) }}">{{ gm.match.team1 }}</a>
+              </td>
+              <td>
+                <a href="{{ url_for('matches_blueprint.team', id=gm.match.team2.id) }}">{{ gm.match.team2 }}</a>
+              </td>
+              <td>{{ gm.time_remaining() }}</td>
+              <td>{{ gm.amount_bet(user) }}</td>
+              <td>
+                <a href="{{ url_for('bets_blueprint.create', id=gm.id) }}">Bet/Update</a>
+              </td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
   </div>
 {% endblock %}

@@ -4,9 +4,9 @@
   <div class="container vspace-one">
     {% include "inc/nav.html" %}
     <h3>Hello {{ user.name }}!</h3>
-    <div class="vspace-two">
+    <div class="vspace-two table-responsive">
       {% if bets %}
-        <table class="table">
+        <table class="table table-bordered table-striped">
           <thead>
             <tr>
               <th>Group</th>
@@ -18,8 +18,19 @@
           <tbody>
             {% for bet in bets %}
               <tr>
-                <td>{{ bet.group_match.group }}</td>
-                <td>{{ bet.group_match.match }}</td>
+                <td>
+                  <a href="{{ url_for('groups_blueprint.show', id=bet.group_match.group.id) }}">
+                    {{ bet.group_match.group }}
+                  </a>
+                </td>
+                <td>
+                  <a href="{{ url_for('matches_blueprint.team', id=bet.group_match.match.team1.id) }}">
+                    {{ bet.group_match.match.team1 }}
+                  </a> vs &nbsp;
+                  <a href="{{ url_for('matches_blueprint.team', id=bet.group_match.match.team2.id) }}">
+                    {{ bet.group_match.match.team2 }}
+                  </a>
+                </td>
                 <td>{{ bet.amount }} {{bet.currency}}</td>
                 <td>{{ bet.pot() }}</td>
               </tr>

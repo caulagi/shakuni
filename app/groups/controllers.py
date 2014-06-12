@@ -97,7 +97,8 @@ def init(application):
         group = Group.objects.get(id=id)
         group_matches = GroupMatch.objects(group=group)
         is_admin = g.user in group.admins
-        return render_template("groups/show.html", group=group, group_matches=group_matches, is_admin=is_admin)
+        return render_template("groups/show.html", group=group, user=g.user,
+            group_matches=group_matches, is_admin=is_admin)
 
 
     @groups_blueprint.route('/join/<id>', methods=['GET', 'POST'])
