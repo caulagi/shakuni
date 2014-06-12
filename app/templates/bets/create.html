@@ -16,7 +16,11 @@
       <dt>Start time</dt>
       <dd>{{ group_match.match.start_time }}</dd>
     </dl>
-    <form method="POST" action="" class="form-horizontal">
+    <div class="vspace-two">
+      {% include "inc/bets_list.html" %}
+    </div>
+    <form method="POST" action="" class="form-horizontal vspace-three">
+      <legend>Update or place a bet</legend>
       {{ form.csrf_token }}
       <div class="form-group">
         <label for="amount" class="col-sm-2 control-label">

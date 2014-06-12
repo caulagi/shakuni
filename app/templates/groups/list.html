@@ -6,13 +6,14 @@
     {% if groups %}
       <h4>{{ user.name }}, you are a member of the following groups -</h4>
       <div class="table-responsive">
-        <table class="table table-striped">
+        <table class="table table-striped table-bordered">
           <thead>
             <tr>
               <th>Name</th>
               <th>Slug</th>
               <th>Currency</th>
               <th>Admin</th>
+              <th>Invite link</th>
             </tr>
           </thead>
           <tbody>
@@ -29,6 +30,9 @@
                       <li>{{ admin.name }}</li>
                     {% endfor %}
                   </ul>
+                </td>
+                <td>Share this in your social circles - 
+                  <a href="{{ url_for('groups_blueprint.join', id=group.id) }}">invite link</a>
                 </td>
               {% endfor %}
             </tr>

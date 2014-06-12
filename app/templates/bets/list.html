@@ -13,33 +13,6 @@
       <dt>Pot</dt>
       <dd><strong> {{ bets[0].pot() }}</strong></dd>
     </dl>
-    <div class="table-responsive">
-      <table class="table table-striped table-bordered">
-        <thead>
-          <tr>
-            <th>User</th>
-            <th>Amount</th>
-            <th>Bet on</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            {% for bet in bets %}
-              <td>{{ bet.user }}</td>
-              <td>{{ bet.amount }} {{ bet.currency }}</td>
-              <td>
-                {% if bet.outcome == -1 %}
-                  {{ bet.group_match.match.team2 }} to win
-                {% elif bet.outcome == 0 %}
-                  Draw
-                {% else %}
-                  {{ bet.group_match.match.team1 }} to win
-                {% endif %}
-              </td>
-            {% endfor %}
-          </tr>
-        </tbody>
-      </table>
-    </div>
+    {% include "inc/bets_list.html" %}
   </div>
 {% endblock %}

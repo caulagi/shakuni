@@ -67,8 +67,10 @@ def init(application):
             abort(403, "We no longer accept bets for this match")
             
         form = BetForm(request.form)
+        bets = Bet.objects(group_match = group_match)
         if form.validate_on_submit():
             create_bet(form, group_match)
             flash("You have joined the group successfully")
             return redirect(url_for("bets_blueprint.list", id=group_match.id))
-        return render_template("bets/create.html", group_match=group_match, form=form)
+        return render_template("bets/create.html", group_match=group_match,
+            form=form, bets=bets)

@@ -42,7 +42,9 @@
         <tbody>
           {% for gm in group_matches %}
             <tr>
-              <td>{{ gm.match.match_number }}</td>
+              <td class="text-center">
+                <a href="{{ url_for('bets_blueprint.list', id=gm.id) }}">{{ gm.match.match_number }}</a>
+              </td>
               <td>
                 <a href="{{ url_for('matches_blueprint.team', id=gm.match.team1.id) }}">{{ gm.match.team1 }}</a>
               </td>
