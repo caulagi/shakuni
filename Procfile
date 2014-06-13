@@ -1,1 +1,1 @@
-web: gunicorn app.project.instance:application
+web: gunicorn --debug app.project.instance:application
