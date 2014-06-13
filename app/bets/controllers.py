@@ -51,7 +51,9 @@ def init(application):
             group_match = GroupMatch.objects.get(id=id)
         except GroupMatch.DoesNotExist:
             abort(403, "Not a valid match")
+        print group_match
         bets = Bet.objects(group_match = group_match)
+        print bets
         return render_template("bets/list.html", bets=bets)
 
     @bets_blueprint.route('/<id>/create', methods=['GET', 'POST'])
