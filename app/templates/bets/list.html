@@ -5,17 +5,19 @@
     {% include "inc/nav.html" %}
     <dl class="dl-horizontal well">
       <dt>Match</dt>
-      <dd>{{ bets[0].group_match.match }}</dd>
+      <dd>{{ group_match.match }}</dd>
       <dt>Start time</dt>
-      <dd>{{ bets[0].group_match.match.start_time }}</dd>
-      <dt>Currency</dt>
-      <dd>{{ bets[0].currency }}</dd>
-      <dt>Pot</dt>
-      <dd><strong> {{ bets[0].pot() }}</strong></dd>
+      <dd>{{ group_match.match.start_time }}</dd>
+      {% if bets %}
+        <dt>Currency</dt>
+        <dd>{{ bets[0].currency }}</dd>
+        <dt>Pot</dt>
+        <dd><strong> {{ bets[0].pot() }}</strong></dd>
+      {% endif %}
     </dl>
     {% include "inc/bets_list.html" %}
     <div class="row text-center">
-      <a href="{{ url_for('bets_blueprint.create', id=bets[0].group_match.id) }}" class="btn btn-success">Update bet</a>
+      <a href="{{ url_for('bets_blueprint.create', id=group_match.id) }}" class="btn btn-success">Update bet</a>
     </div>
   </div>
 {% endblock %}
