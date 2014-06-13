@@ -18,13 +18,11 @@
           {% endfor %}
         </ul>
       </dd>
-      {% if is_admin %}
-        <dt>Invite url</dt>
-        <dd>
-          Invite your friends to join this group by sharing this link with them -
-          <a href="{{ url_for('groups_blueprint.join', id=group.id) }}">link</a>
-        </dd>
-      {% endif %}
+      <dt>Invite url</dt>
+      <dd>
+        Invite your friends to join this group by sharing this link with them -
+        <a href="{{ url_for('groups_blueprint.join', id=group.id) }}">link</a>
+      </dd>
       <dd>
     </dl>
     <div class="table-responsive">

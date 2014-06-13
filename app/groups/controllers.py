@@ -94,10 +94,9 @@ def init(application):
         if not g.user:
             abort(401)
         group = Group.objects.get(id=id)
-        group_matches = GroupMatch.objects(group=group)
-        is_admin = g.user in group.admins
+        group_matches = GroupMatch.objects(group=group).order_by("cutoff")
         return render_template("groups/show.html", group=group, user=g.user,
-            group_matches=group_matches, is_admin=is_admin)
+            group_matches=group_matches)
 
 
     @groups_blueprint.route('/join/<id>', methods=['GET', 'POST'])
